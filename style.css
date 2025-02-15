@@ -146,6 +146,25 @@ html {
   scale: 0.95;
 }
 
+footer {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #000000;
+}
+
+footer p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.year-space {
+  margin-right: 5px;
+}
+
 /* for mobile display */
 @media (min-width: 200px) and (max-width: 1025px) {
   .container {
@@ -155,5 +174,18 @@ html {
   .gif {
     height: 90%;
     width: 80%;
+  }
+  footer {
+    font-size: 1rem;
+  }
+  .year-space {
+    margin-right: 5px;
+  }
+}
+
+/* Responsive styling for larger screens */
+@media (min-width: 1026px) {
+  footer {
+    font-size: 1.4rem;
   }
 }
