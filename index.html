@@ -1,42 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="assets/logo.png" />
-    <title>Happy Valentine's Day</title>
-    <link rel="stylesheet" href="/style.css" />
-  </head>
-  <body>
-    <section>
-      <div class="video-background">
-        <video autoplay loop muted playsinline>
-          <source src="assets/puso.webm" type="video/webm" />
-        </video>
-      </div>
-      <div class="container">
-        <div class="image-box">
-          <div class="actual-image">
-            <img src="assets/puso-ng-pusa.gif" alt="gif" class="gif" id="gif" />
-          </div>
-          <div class="text-one">
-            <p style="font-size: 1.4rem; text-align: center" id="text">
-              Will you be my Valentine? ❤️😘
-            </p>
-          </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="assets/valentine-logo.svg" />
+  <title>Happy Valentine's Day</title>
+  <link rel="stylesheet" href="/style.css" />
+  <meta name="description" content="A special Valentine's Day surprise for someone special" />
+</head>
+
+<body>
+  <section>
+    <div class="floating-hearts"></div>
+    <div class="video-background">
+      <video autoplay loop muted playsinline>
+        <source src="assets/puso.webm" type="video/webm" />
+      </video>
+    </div>
+    <div class="container">
+      <div class="image-box">
+        <div class="actual-image">
+          <img src="assets/puso-ng-pusa.gif" alt="Valentine cat gif" class="gif" id="gif" />
         </div>
-        <div class="yes-no">
-          <button class="yes" id="yes">Yes</button>
-          <button class="no" id="no">No</button>
+        <div class="text-one">
+          <p id="text">You're the heartbeat in my soul. Be my Valentine?</p>
         </div>
       </div>
-    </section>
-    <footer>
-      <p>
-        © <span id="year" class="year-space"></span> Miguel Enrique Dasalla. All
-        Rights Reserved.
-      </p>
-    </footer>
-    <script src="/script.js"></script>
-  </body>
+      <div class="yes-no">
+        <button class="yes" id="yes">Yes</button>
+        <button class="no" id="no">No</button>
+      </div>
+    </div>
+    <div class="warning-message" id="warning-message">
+      My darling, in every beat of my heart lies a wish for your "Yes"... ❤️
+    </div>
+  </section>
+  <footer>
+    <p>
+      ❤️ <span id="year" class="year-space"></span> With all my love, Miguel ❤️
+    </p>
+  </footer>
+  <script src="/script.js"></script>
+</body>
+
 </html>
