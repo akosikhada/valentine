@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle with Gradient -->
+  <circle cx="200" cy="200" r="190" fill="url(#paint0_radial)" />
+  
+  <!-- Decorative Heart Border -->
+  <path d="M200 370C200 370 350 270 350 170C350 120 310 90 270 90C240 90 210 110 200 150C190 110 160 90 130 90C90 90 50 120 50 170C50 270 200 370 200 370Z" 
+    stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="url(#paint1_radial)" />
+  
+  <!-- Main Heart -->
+  <path d="M200 350C200 350 340 260 340 170C340 126 304 100 269 100C243 100 217 117 208 152C199 117 173 100 147 100C112 100 76 126 76 170C76 260 200 350 200 350Z" 
+    fill="url(#paint2_linear)" />
+    
+  <!-- Secondary Heart -->
+  <path d="M200 320C200 320 310 245 310 170C310 135 282 114 254 114C233 114 212 128 205 157C198 128 177 114 156 114C128 114 100 135 100 170C100 245 200 320 200 320Z" 
+    fill="url(#paint3_linear)" />
+  
+  <!-- Inner Heart Glow -->
+  <path d="M200 300C200 300 290 235 290 170C290 140 266 122 242 122C224 122 206 134 200 160C194 134 176 122 158 122C134 122 110 140 110 170C110 235 200 300 200 300Z" 
+    fill="url(#paint4_radial)" />
+  
+  <!-- Valentine Text -->
+  <text x="200" y="195" font-family="Dancing Script, cursive" font-size="36" font-weight="700" text-anchor="middle" fill="white">Valentine</text>
+  
+  <!-- Smaller Hearts -->
+  <g class="small-hearts">
+    <path d="M120 80C120 80 140 65 150 80C160 65 180 80 180 95C180 115 150 130 150 130C150 130 120 115 120 95C120 80 120 80 120 80Z" fill="#FF4D6D" />
+    <path d="M280 80C280 80 300 65 310 80C320 65 340 80 340 95C340 115 310 130 310 130C310 130 280 115 280 95C280 80 280 80 280 80Z" fill="#FF4D6D" />
+    <path d="M80 200C80 200 100 185 110 200C120 185 140 200 140 215C140 235 110 250 110 250C110 250 80 235 80 215C80 200 80 200 80 200Z" fill="#FF4D6D" />
+    <path d="M320 200C320 200 340 185 350 200C360 185 380 200 380 215C380 235 350 250 350 250C350 250 320 235 320 215C320 200 320 200 320 200Z" fill="#FF4D6D" />
+  </g>
+  
+  <!-- Shimmering Effect -->
+  <circle cx="160" cy="170" r="3" fill="white" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0.3;0.8" dur="2s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="240" cy="170" r="3" fill="white" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0.3;0.8" dur="1.8s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="200" cy="250" r="3" fill="white" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0.3;0.8" dur="2.2s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="180" cy="200" r="2" fill="white" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0.3;0.8" dur="1.5s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="220" cy="200" r="2" fill="white" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0.3;0.8" dur="1.7s" repeatCount="indefinite" />
+  </circle>
+  
+  <!-- Your Initials -->
+  <text x="200" y="240" font-family="Dancing Script, cursive" font-size="48" font-weight="700" text-anchor="middle" fill="white">M &amp; P</text>
+  
+  <!-- Gradient Definitions -->
+  <defs>
+    <radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(200 200) rotate(90) scale(190)">
+      <stop offset="0" stop-color="#450a24" />
+      <stop offset="1" stop-color="#2a0910" />
+    </radialGradient>
+    
+    <radialGradient id="paint1_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(200 170) rotate(90) scale(170)">
+      <stop offset="0" stop-color="#FF6B8B" />
+      <stop offset="1" stop-color="#FF2A5A" />
+    </radialGradient>
+    
+    <linearGradient id="paint2_linear" x1="76" y1="100" x2="340" y2="350" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FF416C" />
+      <stop offset="1" stop-color="#FF4B2B" />
+    </linearGradient>
+    
+    <linearGradient id="paint3_linear" x1="100" y1="114" x2="310" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FF6B8B" />
+      <stop offset="1" stop-color="#FF2A5A" />
+    </linearGradient>
+    
+    <radialGradient id="paint4_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(200 170) rotate(90) scale(130)">
+      <stop offset="0" stop-color="#FFADC2" />
+      <stop offset="1" stop-color="#FF5E86" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Animation: Pulse Effect -->
+  <style>
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.03); }
+      100% { transform: scale(1); }
+    }
+    .small-hearts {
+      animation: pulse 2s infinite ease-in-out;
+      transform-origin: center;
+    }
+  </style>
+</svg> 
