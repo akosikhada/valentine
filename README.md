@@ -4,9 +4,9 @@
   
   ![Valentine's Banner](https://img.shields.io/badge/-%F0%9F%92%95%20Happy%20Valentine's%20Day%20%F0%9F%92%95-ff2a5a?style=for-the-badge&labelColor=450a24)
   
-  <img src="./valentine-logo.svg" alt="Valentine's Logo" width="150" height="150" />
+  <img src="./assets/valentine-logo.svg" alt="Valentine's Logo" width="150" height="150" />
   
-  <p>A beautifully crafted, interactive Valentine's Day experience created with love.</p>
+  <p style="font-style: italic">A beautifully crafted, interactive Valentine's Day experience created with love.</p>
   
   ![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white)
   ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white)
