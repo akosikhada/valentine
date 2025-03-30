@@ -24,29 +24,26 @@ This Valentine's Day website is a heartfelt expression of love created specially
 
 ## ✨ Features & Enhancements
 
-This website has been crafted with care and includes several features to create a memorable Valentine's Day experience:
+This website creates a memorable Valentine's Day experience with:
 
-### Design & Aesthetics
+### Design
 
-- **🌙 Romantic Dark Theme:** A sophisticated dark burgundy theme that creates an intimate, romantic atmosphere while highlighting beautiful pink and red accents.
-- **🎞️ Animated Love Expressions:** Dynamic GIFs that change with each interaction, expressing different emotions and moments of our relationship.
-- **💖 Floating Heart Animations:** Gentle floating hearts across the screen create a dreamy, romantic backdrop.
-- **✨ Elegant Glass-Effect UI:** Modern glass-morphism design with subtle shadows and glows for a premium feel.
-- **🎉 Celebration Effects:** Special animation effects when "Yes" is selected to celebrate the moment.
-- **🎨 Custom Valentine's Logo:** Beautiful animated SVG logo with pulsing hearts and personalized initials.
+- **🌙 Romantic Theme:** Dark burgundy theme with pink and red accents
+- **💖 Animations:** Floating hearts and dynamic GIFs that change with interactions
+- **✨ Modern UI:** Glass-morphism design with elegant shadows and celebration effects
+- **🎨 Custom Logo:** Animated SVG with pulsing hearts and personalized initials
 
 ### Interactive Elements
 
-- **💬 Romantic Text Messages:** Poetically crafted messages that change with each interaction, expressing deep feelings and emotions.
-- **⚠️ Romantic Warning Message:** A beautifully styled message below the card that gently encourages choosing "Yes" with heartfelt pleas.
-- **🔄 Dynamic Button Interactions:** Buttons that change size and position as the interaction progresses, creating a fun and engaging experience.
-- **👆 Responsive Hover Effects:** Interactive elements respond to hover with subtle animations and glowing effects.
+- **💬 Dynamic Messages:** Changing romantic texts that respond to user interactions
+- **🔄 Playful Buttons:** Buttons that change size and position as interaction progresses
+- **👆 Responsive Effects:** Elements with subtle animations and glowing hover states
 
-### Responsive & Accessible
+### Accessibility
 
-- **📱 Fully Responsive Design:** Perfectly adapts to any device size from mobile phones to desktop screens.
-- **🌈 High Contrast Text:** Carefully selected colors ensure all text remains highly visible and readable.
-- **⚡ Performance Optimized:** Smooth animations and transitions that work well on all devices.
+- **📱 Responsive Design:** Adapts to all device sizes from mobile to desktop
+- **🌈 High Contrast:** Carefully selected colors for optimal readability
+- **⚡ Performance:** Optimized animations that work smoothly across devices
 
 ## 💕 How It Works
 
